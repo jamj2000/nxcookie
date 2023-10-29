@@ -14,7 +14,7 @@ export default function Home() {
     return (
       <main>
         <h1>Página principal</h1>
-        <h3><Link href="/dashboard">Dashboard</Link></h3>
+        <h3><Link href="/dashboard">Ir a Dashboard</Link></h3>
         <Logout />
       </main>
 
@@ -24,7 +24,7 @@ export default function Home() {
     return (
       <main>
         <h1>Página principal</h1>
-        <h3><Link href="/dashboard">Dashboard</Link></h3>
+        <h3><Link href="/dashboard">Ir a Dashboard</Link></h3>
         <Login />        
         <p>Puedes usar cualquiera de las siguentes credenciales:</p>
         <ul>
