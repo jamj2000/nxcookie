@@ -14,6 +14,7 @@ export default function Home() {
     return (
       <main>
         <h1>Página principal</h1>
+        <h3><Link href="/dashboard">Dashboard</Link></h3>
         <Logout />
       </main>
 
