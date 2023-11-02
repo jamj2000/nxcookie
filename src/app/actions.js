@@ -20,7 +20,6 @@ export async function login (formData) {
         // revalidatePath('/')        
         redirect('/')   
     }
-   s
 }
 
 export async function logout () {   
