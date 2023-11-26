@@ -1,4 +1,4 @@
-import { login } from '@/app/actions'
+import { login } from '@/lib/actions'
 
 function Login() {
     return (

@@ -5,7 +5,6 @@ import Link from 'next/link';
 
 function page() {
     const usuario = cookies().get('usuario')
-    // console.log(usuario);
 
     if (usuario)
         return (
@@ -15,8 +14,9 @@ function page() {
                 <Logout />
             </div>
         )
-
-    redirect('/')
+    else {
+        redirect('/')
+    }
 }
 
 export default page

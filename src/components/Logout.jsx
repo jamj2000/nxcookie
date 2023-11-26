@@ -1,4 +1,4 @@
-import { logout } from "@/app/actions";
+import { logout } from "@/lib/actions";
 
 function Logout() {
     return (
