@@ -30,5 +30,5 @@ export async function logout () {
     //     console.log(key, value)
     // }
     cookies().delete('usuario')
-    redirect(`${origin}/`)  
+    redirect(`${origin}/`) 
 }
