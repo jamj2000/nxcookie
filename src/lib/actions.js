@@ -3,7 +3,6 @@
 import { users } from '@/lib/users'
 import { redirect } from 'next/navigation'
 import { cookies, headers } from 'next/headers'
-import { revalidatePath } from 'next/cache'
 
 
 export async function login(formData) {
@@ -15,7 +14,6 @@ export async function login(formData) {
 
     if (encontrado.length > 0) {
         cookies().set('usuario',  email) 
-        revalidatePath('/dashboard');
         redirect('/dashboard')
     }
     else {
